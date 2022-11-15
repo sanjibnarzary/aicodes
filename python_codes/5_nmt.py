@@ -242,4 +242,7 @@ def main():
 
                 ='<sos>', eos_token
                 ='<eos>', lower=True)
+# call the main function
+if __name__ == '__main__':
+    main()
     
